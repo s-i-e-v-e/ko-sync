@@ -14,6 +14,7 @@ Steps:
 * Clone this repository
 * `cd` into the base directory
 * Install *ko-sync* using `deno install --config 'deno.json' --check --allow-all --unstable 'src/ko-sync.ts' "$@"`. Do this every time you update the repository so that the latest changes are compiled.
+* See `ko-sync --help` for more information.
 
 ## Licensing
 
