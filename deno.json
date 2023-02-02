@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "nonstd/": "https://raw.githubusercontent.com/s-i-e-v-e/nonstd/v0.3/src/ts/",
+    "sqlite3/": "https://deno.land/x/sqlite3@0.7.3/"
+  }
+}
