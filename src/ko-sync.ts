@@ -92,6 +92,7 @@ function get_progress(map: Record<string, Resource>, re: Request, document: stri
 const text_encoder = new TextEncoder();
 async function handle_request(method: string, url: string, map: Record<string, Resource>, re: Request) {
     let q: SyncResponse;
+    console.log(`${method}: ${url}`);
     if (method === 'GET') {
         if (url === '/healthcheck') {
             q = health_check();
